@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #222;
+}
+
+.projects {
+    max-width: 700px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+.projects h1 {
+    margin-bottom: 10px;
+}
+
+.projects p {
+    line-height: 1.6;
+}
+
+.projects a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #222;
+    font-weight: bold;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Fresh Digital</title>
+
+    <link rel="stylesheet" href="contact-style.css">
+</head>
+
+<body>
+
+    <div class="contact-page">
+
+        <a href="work.html" class="back-link">← Back to Fresh Digital</a>
+
+        <h1>Let's Work Together</h1>
+
+        <p>
+            Tell us a little about your project and we'll get back to you.
+        </p>
+
+        <form id="contact-form">
+
+            <label for="name">Your Name</label>
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                required
+            >
+
+            <label for="email">Email Address</label>
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+            >
+
+            <label for="project">Tell us about your project</label>
+            <textarea
+                id="project"
+                rows="6"
+                placeholder="What would you like us to help you with?"
+                required
+            ></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+        <p id="message"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
